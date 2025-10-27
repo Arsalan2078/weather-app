@@ -1,5 +1,7 @@
+import styles from "./App.module.scss";
+
 export default function App() {
-  return <div>
+  return <div className={`${styles.app}`}>
     Units
 
     Switch to Imperial/Metric

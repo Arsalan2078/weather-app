@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "DM Sans";
+  src: local("DM Sans"),
+    url("/fonts/DM_Sans/static/DMSans-Light.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: local("DM Sans"),
+    url("/fonts/DM_Sans/static/DMSans-Medium.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: local("DM Sans"),
+    url("/fonts/DM_Sans/static/DMSans-SemiBold.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: local("DM Sans"),
+    url("/fonts/DM_Sans/static/DMSans-SemiBoldItalic.ttf") format("truetype");
+  font-display: swap;
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: local("DM Sans"),
+    url("/fonts/DM_Sans/static/DMSans-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: local("Bricolage Grotesque"),
+    url("/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf")
+      format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 00;
+}
