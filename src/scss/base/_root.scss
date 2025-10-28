@@ -1,39 +1,74 @@
 :root {
   // colors
-  --clr-neutral-900: hsl(243, 96%, 9%);
-  --clr-neutral-800: hsl(243, 27%, 20%);
-  --clr-neutral-700: hsl(243, 23%, 24%);
-  --clr-neutral-600: hsl(243, 23%, 30%);
-  --clr-neutral-300: hsl(240, 6%, 70%);
-  --clr-neutral-200: hsl(250, 6%, 84%);
-  --clr-neutral-0: hsl(0, 0%, 100%);
-  --clr-orange-500: hsl(28, 100%, 52%);
-  --clr-blue-500: hsl(233, 67%, 56%);
-  --clr-blue-700: hsl(248, 70%, 36%);
+  --c-neutral-900: hsl(243, 96%, 9%);
+  --c-neutral-800: hsl(243, 27%, 20%);
+  --c-neutral-700: hsl(243, 23%, 24%);
+  --c-neutral-600: hsl(243, 23%, 30%);
+  --c-neutral-300: hsl(240, 6%, 70%);
+  --c-neutral-200: hsl(250, 6%, 84%);
+  --c-neutral-0: hsl(0, 0%, 100%);
+  --c-orange-500: hsl(28, 100%, 52%);
+  --c-blue-500: hsl(233, 67%, 56%);
+  --c-blue-700: hsl(248, 70%, 36%);
+
+  --color-body-bg: var(--c-neutral-900);
+  --color-text: var(--c-neutral-0);
 
   // fonts
   --ff-dm-sans: "DM Sans", sans-serif;
   --ff-bricolage-grotesque: "Bricolage Grotesque", sans-serif;
-
   --fw-light: 300;
   --fw-medium: 500;
   --fw-semibold: 600;
   --fw-bold: 700;
-
-  --fs-96: 6rem;
-  --fs-52: 3.25rem;
-  --fs-32: 2rem;
-  --fs-28: 1.75rem;
-  --fs-20: 1.25rem;
-  --fs-18: 1.125rem;
-  --fs-16: 1rem;
-  --fs-14: 0.875rem;
-
+  --fs-96: calc(96 / 16 * 1rem);
+  --fs-52: calc(52 / 16 * 1rem);
+  --fs-32: calc(32 / 16 * 1rem);
+  --fs-28: calc(28 / 16 * 1rem);
+  --fs-20: calc(20 / 16 * 1rem);
+  --fs-18: calc(18 / 16 * 1rem);
+  --fs-16: calc(16 / 16 * 1rem);
+  --fs-14: calc(14 / 16 * 1rem);
   --lh-120: 1.2;
   --lh-100: 1;
-
   --ls-0: 0;
-  --ls-neg-2: -0.125rem;
+  --ls-neg-2: calc(-2 / 16 * 1rem);
+
+  // spacings
+  --s-0: 0;
+  --s-2: calc(2 / 16 * 1rem);
+  --s-4: calc(4 / 16 * 1rem);
+  --s-6: calc(6 / 16 * 1rem);
+  --s-8: calc(8 / 16 * 1rem);
+  --s-10: calc(10 / 16 * 1rem);
+  --s-12: calc(12 / 16 * 1rem);
+  --s-16: calc(16 / 16 * 1rem);
+  --s-20: calc(20 / 16 * 1rem);
+  --s-24: calc(24 / 16 * 1rem);
+  --s-32: calc(32 / 16 * 1rem);
+  --s-40: calc(40 / 16 * 1rem);
+  --s-48: calc(48 / 16 * 1rem);
+  --s-64: calc(64 / 16 * 1rem);
+  --s-80: calc(80 / 16 * 1rem);
+  --s-96: calc(96 / 16 * 1rem);
+  --s-112: calc(112 / 16 * 1rem);
+  --s-128: calc(128 / 16 * 1rem);
+  --s-140: calc(140 / 16 * 1rem);
+
+  // border radii
+  --r-0: 0;
+  --r-4: calc(4 / 16 * 1rem);
+  --r-6: calc(6 / 16 * 1rem);
+  --r-8: calc(8 / 16 * 1rem);
+  --r-10: calc(10 / 16 * 1rem);
+  --r-12: calc(12 / 16 * 1rem);
+  --r-16: calc(16 / 16 * 1rem);
+  --r-20: calc(20 / 16 * 1rem);
+  --r-24: calc(24 / 16 * 1rem);
+  --r-full: 99rem;
+
+  // misc
+  --transition: 0.15s;
 
   // root styles
   color-scheme: dark;

@@ -1,41 +1,43 @@
 import styles from "./App.module.scss";
 
 export default function App() {
-  return <div className={`${styles.app}`}>
-    Units
+  return (
+    <div className={`${styles.app}`}>
+      Units
 
-    Switch to Imperial/Metric
+      Switch to Imperial/Metric
 
-    Temperature
+      Temperature
 
-    Celsius (°C)
-    Fahrenheit (°F)
+      Celsius (°C)
+      Fahrenheit (°F)
 
-    Wind Speed
+      Wind Speed
 
-    km/h
-    mph
+      km/h
+      mph
 
-    Precipitation
+      Precipitation
 
-    Millimeters (mm)
-    Inches (in)
+      Millimeters (mm)
+      Inches (in)
 
-    How's the sky looking today?
+      How's the sky looking today?
 
-    Search for a city, e.g., New York
-    Search
+      Search for a city, e.g., New York
+      Search
 
-    Feels like
+      Feels like
 
-    Humidity
+      Humidity
 
-    Wind
-    
-    Precipitation
+      Wind
+      
+      Precipitation
 
-    Daily forecast
+      Daily forecast
 
-    Hourly forecast    
-  </div>;
+      Hourly forecast
+    </div>
+  );
 }

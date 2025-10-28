@@ -1,20 +1,30 @@
 @use "sass:map";
 @use "./variables" as vars;
 
-// breakpoints mixin
-@mixin respond-to($breakpoint) {
+// breakpoint mixins
+@mixin min-width($breakpoint) {
   $breakpoint-value: map.get(vars.$breakpoints, $breakpoint);
 
-  @media (min-width: $breakpoint-value) {
+  @media screen and (min-width: $breakpoint-value) {
+    @content;
+  }
+}
+
+@mixin max-width($breakpoint) {
+  $breakpoint-value: map.get(vars.$breakpoints, $breakpoint);
+
+  @media screen and (max-width: $breakpoint-value) {
     @content;
   }
 }
 
 // text presets mixin
-@mixin apply-text-preset($text-preset) {
+@mixin text-preset($text-preset) {
   $text-preset-map: map.get(vars.$text-presets, $text-preset);
 
   @each $property, $value in $text-preset-map {
     #{$property}: $value;
   }
 }
+
+
